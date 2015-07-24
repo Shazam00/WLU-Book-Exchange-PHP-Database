@@ -62,7 +62,7 @@ if($nemail !=  $vnemail){
 
 if ($valid == 0) {
 
-$conn=mysql_connect("localhost","ramr0560","angr32cunt") or die(mysql_error());
+$conn=mysql_connect("localhost","ramr0560","xxxxx") or die(mysql_error());
 mysql_select_db("ramr0560");
 
 //get User ID
