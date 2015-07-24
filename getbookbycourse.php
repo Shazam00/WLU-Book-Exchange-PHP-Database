@@ -28,7 +28,7 @@
 <?php
 //include("searchbycourse.php");
 $course=$_POST["course"];
-$conn=mysql_connect("localhost","ramr0560","angr32cunt") or die(mysql_error());
+$conn=mysql_connect("localhost","ramr0560","xxxxx") or die(mysql_error());
 mysql_select_db("ramr0560");
 
 $sql="SELECT * FROM Books WHERE course = '$course' ";
