@@ -31,7 +31,7 @@ include("header.php");
 echo '<form action="http://hopper.wlu.ca/~ramr0560/final/getbookbycourse.php"  method="post">';
 echo '<select name="course">';
 
-$conn=mysql_connect("localhost","ramr0560","angr32cunt") or die(mysql_error());
+$conn=mysql_connect("localhost","ramr0560","xxxxx") or die(mysql_error());
 mysql_select_db("ramr0560");
 
 $sql="SELECT distinct course FROM Books";
