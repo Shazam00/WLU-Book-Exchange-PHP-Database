@@ -16,7 +16,7 @@ This Sidebar is displayed on each page, to save space and file sizes this code i
 				<select name ="course" class="field">
 					<option value="">-- Select Course --</option>
 					<?php
-						$conn=mysql_connect("localhost","ramr0560","angr32cunt") or die(mysql_error());
+						$conn=mysql_connect("localhost","ramr0560","xxxxx") or die(mysql_error());
 						mysql_select_db("ramr0560");
 
 						$sql="SELECT distinct course FROM Books ORDER By course ASC";
