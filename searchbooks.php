@@ -45,7 +45,7 @@
 		$valid = $valid + 1;
 	}
 	if ($valid < 3 ) {
-		$conn=mysql_connect("localhost","ramr0560","angr32cunt") or die(mysql_error());
+		$conn=mysql_connect("localhost","ramr0560","xxxxx") or die(mysql_error());
 		mysql_select_db("ramr0560");
 		$query = "select * from Books where bookTitle LIKE '%".$bookname."%' OR author LIKE '%".$author."%' OR course LIKE '%".$course."%'";
 		$result = mysql_query($query, $conn);
