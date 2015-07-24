@@ -59,7 +59,7 @@
 		echo 'You did not enter a username<br/>';
 		$valid = 1;
 	} else {
-		$conn=mysql_connect("localhost","ramr0560","angr32cunt") or die(mysql_error());
+		$conn=mysql_connect("localhost","ramr0560","xxxxx") or die(mysql_error());
 		mysql_select_db("ramr0560");
 		$query = "select count(*) from Users where username = '$username'";
 		$result = mysql_query($query, $conn);
